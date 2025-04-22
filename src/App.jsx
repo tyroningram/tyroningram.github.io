@@ -8,7 +8,12 @@ function App() {
 
   return (
     <>
-      <h1 className="bg-black text-2xl text-white">Hello World</h1>
+      <main className=" h-screen flex flex-col items-center justify-center bg-gray-600">
+        <h1 className=" text-3xl font-bold text-white">Hello World</h1>
+        <p className=" text-white text-sm">
+          This is a cover - this website is in progess. Please check back later.
+        </p>
+      </main>
     </>
   );
 }
